@@ -1,5 +1,14 @@
+import Banner from "./Components/Banner/Banner";
+import Tabs from "./Components/Tabs/QualificationTab";
+
 const Home = () => {
-  return <div>this is home</div>;
+  return (
+    <>
+      <Banner></Banner>
+      <Tabs></Tabs>
+      
+    </>
+  );
 };
 
 export default Home;
