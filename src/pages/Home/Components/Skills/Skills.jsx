@@ -1,16 +1,16 @@
 const Skills = () => {
   return (
-    <div className='w-11/10 mx-auto'>
-      <h1 className='font-serif font-extrabold text-4xl text-center my-10'>
+    <div className='w-11/10 mx-auto my-10'>
+      <h1 className='font-serif font-extrabold text-4xl text-center mt-14 mb-5'>
         Skills
       </h1>
       <div className='mx-auto w-1/4 border-b-2'></div>
       <div className='flex flex-col justify-center'>
-        <h3 className='font-mono font-bold text-2xl text-center my-5'>
+        <h3 className='font-mono font-bold text-2xl text-center mt-10 mb-5'>
           Blockchain
         </h3>
         <div className='border-b-2 w-1/6 mx-auto mb-8'></div>
-        <div className='flex flex-row justify-center gap-x-10'>
+        <div className='flex flex-row flex-wrap gap-y-10 justify-center gap-x-10'>
           <img
             src={
               "https://camo.githubusercontent.com/585c07fff941490c585c9f62a2d9eab075e22c763416197895985d3f8e4000aa/68747470733a2f2f63727970746f6c6f676f732e63632f6c6f676f732f76657273696f6e732f657468657265756d2d6574682d6c6f676f2d6469616d6f6e642d707572706c652e737667"
@@ -48,12 +48,12 @@ const Skills = () => {
           />
         </div>
       </div>
-      <div className='flex flex-col justify-center'>
+      <div className='flex flex-col justify-center mt-10'>
         <h3 className='font-mono font-bold text-2xl text-center my-5'>
           Web Development
         </h3>
         <div className='border-b-2 w-1/6 mx-auto mb-8'></div>
-        <div className='flex flex-row justify-center gap-x-10'>
+        <div className='flex flex-row flex-wrap gap-y-10 justify-center gap-x-10'>
           <img
             src={
               "https://camo.githubusercontent.com/27d0b117da00485c56d69aef0fa310a3f8a07abecc8aa15fa38c8b78526c60ac/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667"
