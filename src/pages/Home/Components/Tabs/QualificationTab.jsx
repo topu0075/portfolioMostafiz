@@ -3,14 +3,16 @@ import { MdHomeWork } from "react-icons/md";
 
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import EducationTimeline from "../Timeline/EducationTimeline";
+import WorkExperience from "../Timeline/WorkExperience";
 const QualificationTab = () => {
   return (
-    <div className='mx-auto mt-10'>
+    <div className='w-11/12 mx-auto mt-10'>
       <h1 className='font-serif font-extrabold text-4xl text-center border-b-2 my-10'>
         Qualification
       </h1>
       <Tabs>
-        <div className='flex items-center gap-x-2'>
+        <div className='flex justify-center items-center gap-x-2'>
           <TabList>
             <Tab>
               <div className='flex items-center gap-x-2'>
@@ -27,8 +29,12 @@ const QualificationTab = () => {
           </TabList>
         </div>
 
-        <TabPanel>{/* <EducationTimeline></EducationTimeline> */}</TabPanel>
-        <TabPanel>{/* <WorkExperience /> */}</TabPanel>
+        <TabPanel className='my-10'>
+          <EducationTimeline></EducationTimeline>
+        </TabPanel>
+        <TabPanel>
+          <WorkExperience />
+        </TabPanel>
       </Tabs>
     </div>
   );
