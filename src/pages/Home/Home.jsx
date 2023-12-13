@@ -5,7 +5,7 @@ import Skills from "./Components/Skills/Skills";
 const Home = () => {
   return (
     <>
-      {/* <Banner></Banner> */}
+      <Banner></Banner>
       <Tabs></Tabs>
       <Skills></Skills>
     </>

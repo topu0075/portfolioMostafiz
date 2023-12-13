@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div className='navbar bg-base-100'>
+      <div className='navbar bg-base-100 border-b-2 shadow-md rounded-md shadow-white'>
         <div className='navbar-start'>
           <div className='dropdown'>
             <div tabIndex={0} role='button' className='btn btn-ghost lg:hidden'>
@@ -26,7 +26,7 @@ const Header = () => {
               tabIndex={0}
               className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 '
             >
-              <li>
+              {/* <li>
                 <a>Item 1</a>
               </li>
               <li>
@@ -34,11 +34,11 @@ const Header = () => {
               </li>
               <li>
                 <a>Item 3</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <ul className='menu menu-horizontal px-1 hidden lg:flex'>
-            <li>
+            {/* <li>
               <a>Item 1</a>
             </li>
             <li>
@@ -46,18 +46,16 @@ const Header = () => {
             </li>
             <li>
               <a>Item 3</a>
-            </li>
+            </li> */}
           </ul>
           <a className='btn btn-ghost text-xl lg:hidden font-serif'>
             Mostafizur
           </a>
         </div>
         <div className='navbar-center hidden lg:flex'>
-          <a className='btn btn-ghost text-3xl font-serif'>Mostafizur</a>
+          <a className='btn btn-ghost text-4xl font-serif'>Mostafizur</a>
         </div>
-        <div className='navbar-end'>
-          <a className='btn'>Button</a>
-        </div>
+        <div className='navbar-end'>{/* <a className='btn'>Button</a> */}</div>
       </div>
     </>
   );

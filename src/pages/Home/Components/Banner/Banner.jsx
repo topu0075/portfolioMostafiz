@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div
-      className='flex h-96'
+      className='flex h-96 my-10'
       style={{
         background: "url(https://i.ibb.co/L6nV4Kg/banner.png) no-repeat",
         backgroundSize: "cover",
